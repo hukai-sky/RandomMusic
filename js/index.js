@@ -33,7 +33,7 @@ function pause() {
 //获取频道信息
 function getChannel() {
     $.ajax({
-        url: "http://api.jirengu.com/fm/getChannels.php",
+        url: "https://jirenguapi.applinzi.com/fm/getChannels.php",
         dataType:"json",
         Method: "get",
         success: function (response) {
@@ -51,7 +51,7 @@ function getChannel() {
 //通过ajax获取歌曲
 function getmusic() {
     $.ajax({
-        url: "http://api.jirengu.com/fm/getSong.php",
+        url: "https://jirenguapi.applinzi.com/fm/getSong.php",
         dataType:"json",
         Method:"get",
         data: {
@@ -88,7 +88,7 @@ function getmusic() {
 function getlyric(){
     var sid = $("audio").attr("sid");
     var sSid = $("audio").attr("ssid");
-    $.post('http://api.jirengu.com/fm/getLyric.php', {ssid: sSid, sid: sid})
+    $.post('https://jirenguapi.applinzi.com/fm/getLyric.php', {ssid: sSid, sid: sid})
         .done(function (lyr){
             // console.log(lyr);
             var lyr = JSON.parse(lyr);
