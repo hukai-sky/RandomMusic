@@ -117,9 +117,15 @@ span {
     padding-right: 30px;
 }
 
-span.colored,a.colored{color: #ff4b5d;}
-span.stared{color: #feec98}
-span.loved{color: #ff0000}
+span.colored,a.colored{
+    color: #ff4b5d
+}
+span.stared{
+    color: #feec98
+}
+span.loved{
+    color: #fff
+}
 .content .music-icon span:hover{
     text-shadow: 0 0  5px #ccc;
 }

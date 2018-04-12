@@ -76,7 +76,7 @@ function getmusic() {
                 "background":"url("+bgPic+")",
                 "background-repea": "no-repeat",
                 "background-position": "center",
-                "background-size": "cover",
+                "background-size": "cover"
             });
             play(); //播放
 

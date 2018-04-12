@@ -1,0 +1,35 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1523517159117'); /* IE9*/
+  src: url('iconfont.eot?t=1523517159117#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('iconfont.ttf?t=1523517159117') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1523517159117#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.m-icon {
+  font-family:"m-icon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.m-play:before { content: "\e653"; }
+
+.m-next:before { content: "\e718"; }
+
+.m-heart:before { content: "\e6af"; }
+
+.m-star:before { content: "\e642"; }
+
+.m-pause:before { content: "\e76a"; }
+
+.m-lyric:before { content: "\e629"; }
+
+.m-xunhuan:before { content: "\e623"; }
+
+.m-change:before { content: "\e603"; }
+
+.m-fenxiang:before { content: "\e648"; }
+
